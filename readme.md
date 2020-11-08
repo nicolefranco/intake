@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-![screenshot 1](https://github.com/nicolefranco/intake/images/screenshot1.png?raw=true)
+![Screenshot 1](https://github.com/nicolefranco/intake/images/Screenshot1.png)
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-![screenshot 2](https://github.com/nicolefranco/intake/images/screenshot2.png?raw=true)
+![Screenshot 2](https://github.com/nicolefranco/intake/images/Screenshot2.png)
