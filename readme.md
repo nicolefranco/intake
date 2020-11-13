@@ -73,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Ik wil 1 a/b leren
 
-**Je opdracht:** Ik kies voor het namaken van een bestaande website. http://beautybysuus.nl/index.html
+**Je opdracht:** Ik kies voor het namaken van een bestaande website. https://www.nintendo.com/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
