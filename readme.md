@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-![Screenshot 2](https://github.com/nicolefranco/intake/blob/main/images/Screenshot2.png)
+![Screenshot 2](https://github.com/nicolefranco/intake/blob/main/images/Screenshot2)
