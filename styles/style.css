@@ -1,5 +1,143 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box; 
+  margin: 0; 
+  font-family: sans-serif;
 }
 
+header{
+  position: relative;
+  height: 55px;
+  width: 100%;
+}
+
+.logo_nintendo{
+  position: absolute;
+  max-width: 93px;
+  height: 55px;
+  left: 0;
+  top: 0;
+}
+
+.nav_hamburger{
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img_heroes{
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  outline: 0;
+}
+
+.container_available {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  min-height: 5rem;
+}
+
+h1{
+  font-size: 24px;
+  color: #484848;
+  margin-right: 10px;
+}
+
+h2{
+  font-size: 20px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.visit{
+  display: block;
+  color: white;
+}
+
+button{
+  border: 1px solid #e60012;
+  color: white;
+  background-color: #e60012;
+  border-radius: 4px;
+  display: block;
+  width: 120px;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.grey_line{
+  background: #dadada;
+  border: 0;
+  display: block;
+  height: 1px;
+  margin: 30px auto;
+  width: 95%;
+}
+
+ul{
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+}
+
+ul li{
+  flex-basis:1em;
+  flex-shrink:0;
+  align-items: flex-start;
+  scroll-snap-align: center;
+  display:flex;
+  flex-direction:column;
+}
+li{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #484848;
+  font-weight: bold;
+}
+
+li +li{
+  margin-left: 2em;
+}
+
+li img{
+  margin-bottom: 1em;
+  width: 205px;
+  height: 115px;
+}
+
+.container_shop{
+  text-align: center;
+  background-color: #e60012;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%; 
+}
+
+.img_shop{
+  display: block;
+}
+
+.btn{
+  right: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding: .5em;
+  background-color: #00000059;
+  color: white;
+  width: 328px;
+  height: 44px;
+  font-size: 18px;
+  padding-bottom: 4em;
+}
