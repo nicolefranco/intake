@@ -38,21 +38,41 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Het nabouwen van de Nintendo website ging goed. Af en toe waren er frustraties, maar nadat ik deze had opgelost voelde ik mij euforisch en had ik weer zin om door te werken. Soms besteedde ik veel tijd aan details en wanneer het niet wil lukken. Ook kan ik te lang stil blijven staan bij hetgeen dat niet wilt lukken. Terwijl ik uit ervaring weet dat ik beter verder kan werken aan een ander onderdeel en later terug komen bij het stuk dat niet wil lukken. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Voor de Homepage ben ik naar mijn idee redelijk ver op de mobiele versie. Het is helaas niet gelukt om deze helemaal responsive te krijgen, maar dat komt nog. Ik ben erg tevreden over het werkt dat ik tot nu toe heb gemaakt en ben van mening dat het er goed uit ziet.
+
+screenshot 1
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Samen met mijn groepje hebben we een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen voor onze code en kunnen we probleem aankaarten waar we tegen aan lopen. In deze agenda hebben wij onze vragen duidelijk opgeschreven, om zo het meest uit onze feedback gesprek te halen. Ook is dit voor de beoordelaar handig om te weten waar wij het over willen hebben.
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Nicole (Ik)      
+ ---                   
+  Hoe krijg ik ruimte tussen mijn scrollbar?
+  Hoe  krijg ik ruimte onder mijn button?
+
+| Noa   
+ ---
+ Ik heb een vraag over mijn header
+
+| Samantha
+ ---
+ Hoe zorg ik er voor dat de achtergrondkleur verandert als een element in beeld is?
+ In hoeverre is dit de  surface plane/wat moet erbij?
+
+ | Stein
+ ---
+ Ik heb een vraag over mijn header
+
+| Maylinn
+ ---
+ Hoe maak je een achtergrond gradient met stipjes?
+ Hoe krijg ik mijn header fixed?
+ Hoe krijg ik sommige dingen responsive?
 
 ### Verslag van meeting
 
