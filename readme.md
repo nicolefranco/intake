@@ -44,7 +44,7 @@ Het nabouwen van de Nintendo website ging goed. Af en toe waren er frustraties, 
 
 Voor de Homepage ben ik naar mijn idee redelijk ver op de mobiele versie. Het is helaas niet gelukt om deze helemaal responsive te krijgen, maar dat komt nog. Ik ben erg tevreden over het werkt dat ik tot nu toe heb gemaakt en ben van mening dat het er goed uit ziet.
 
-![Screenshot 1](https://github.com/nicolefranco/intake/blob/main/images/week3/week3_1.png)
+![week3_1](https://github.com/nicolefranco/intake/blob/main/images/week3/week3_1.png)
 
 ![Screenshot 1](https://github.com/nicolefranco/intake/blob/main/images/ScreenshotNintendo1.png)
 
