@@ -46,6 +46,8 @@ Voor de Homepage ben ik naar mijn idee redelijk ver op de mobiele versie. Het is
 
 ![week3_1](https://github.com/nicolefranco/intake/blob/main/images/week3/week3_1.png)
 
+nicolefranco.github.io/images/Week3/week3_1.png
+
 ![Screenshot 1](https://github.com/nicolefranco/intake/blob/main/images/ScreenshotNintendo1.png)
 
 ### Agenda voor meeting
