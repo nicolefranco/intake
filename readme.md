@@ -46,10 +46,6 @@ Voor de Homepage ben ik naar mijn idee redelijk ver op de mobiele versie. Het is
 
 ![week3_1](https://github.com/nicolefranco/intake/blob/main/images/week3/week3_1.png)
 
-nicolefranco.github.io/images/Week3/week3_1.png
-
-![Screenshot 1](https://github.com/nicolefranco/intake/blob/main/images/ScreenshotNintendo1.png)
-
 ### Agenda voor meeting
 
 Samen met mijn groepje hebben we een agenda opgesteld voor een feedbackgesprek. In dit gesprek krijgen wij de kans om vragen te stellen voor onze code en kunnen we probleem aankaarten waar we tegen aan lopen. In deze agenda hebben wij onze vragen duidelijk opgeschreven, om zo het meest uit onze feedback gesprek te halen. Ook is dit voor de beoordelaar handig om te weten waar wij het over willen hebben.
