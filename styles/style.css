@@ -1,7 +1,7 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box; 
-  margin: 0; 
+  margin: 0; padding: 0;
   font-family: sans-serif;
 }
 
@@ -11,7 +11,7 @@ header{
   width: 100%;
 }
 
-.logo_nintendo{
+header > a > img{
   position: absolute;
   max-width: 93px;
   height: 55px;
@@ -19,7 +19,7 @@ header{
   top: 0;
 }
 
-.nav_hamburger{
+header > nav > img{
   position: absolute;
   width: 25px;
   height: 20px;
@@ -28,14 +28,19 @@ header{
   transform: translateY(-50%);
 }
 
-.img_heroes{
+main{
+  min-width: 375px;
+  width: 375px;
+}
+
+#homeIMG{
   height: auto;
   max-width: 100%;
   min-width: 0;
   outline: 0;
 }
 
-.container_available {
+#available {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,33 +55,20 @@ h1{
   margin-right: 10px;
 }
 
-h2{
-  font-size: 20px;
-  color: white;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.visit{
+#available > button{
   display: block;
-  color: white;
-}
-
-button{
+  text-align: center;
   border: 1px solid #e60012;
   color: white;
   background-color: #e60012;
   border-radius: 4px;
-  display: block;
-  width: 120px;
+  max-width: 90%;
+  margin-left: .5em;
   height: 40px;
-  top: 0px;
-  left: 0px;
-  padding: 0px;
   font-size: 18px;
 }
 
-.grey_line{
+hr{
   background: #dadada;
   border: 0;
   display: block;
@@ -85,59 +77,234 @@ button{
   width: 95%;
 }
 
-ul{
+#slider{
   display: flex;
   overflow: auto;
   scroll-snap-type: mandatory;
+  margin-left: 1em;
 }
 
-ul li{
-  flex-basis:1em;
+#slider > li{
+  flex-basis:.25em;
   flex-shrink:0;
   align-items: flex-start;
   scroll-snap-align: center;
   display:flex;
   flex-direction:column;
-}
-li{
+  margin-right: 1em;
   font-family: sans-serif;
   font-size: 15px;
   color: #484848;
   font-weight: bold;
 }
 
-li +li{
-  margin-left: 2em;
-}
-
-li img{
+#slider > li > img{
   margin-bottom: 1em;
   width: 205px;
   height: 115px;
 }
 
-.container_shop{
+#shop{
   text-align: center;
-  background-color: #e60012;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
   width: 96%; 
+  background:#e60012;
 }
 
-.img_shop{
+#shop > img{
   display: block;
 }
 
-.btn{
-  right: 1em;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  padding: .5em;
+h2{
+  font-size: 24px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#shop > button{
+  min-width: 95%;
+  height: 44px;
   background-color: #00000059;
   color: white;
-  width: 328px;
-  height: 44px;
+  opacity: 0.5;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#explore{
+  width: 100%;
+  margin-left: .5em;
+}
+
+#explore > img{
+  height: auto;
+  max-width: 90%;
+  min-width: 0;
+  outline: 0;
+  border-radius: 2%;
+  margin-bottom: 1em;
+}
+
+#explore > button{
+  display: block;
+  text-align: center;
+  border: 1px solid #e60012;
+  color: white;
+  background-color: #e60012;
+  border-radius: 4px;
+  max-width: 90%;
+  height: 40px;
   font-size: 18px;
-  padding-bottom: 4em;
+}
+
+h3{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  color: #484848;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h4{
+  color: #484848;
+  font-weight: medium;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+h5{
+  color: #484848;
+  font-weight: medium;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+#trending{
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+  margin-left: 1em;
+}
+
+#trending > li{
+  flex-basis:.25em;
+  flex-shrink:0;
+  align-items: flex-start;
+  scroll-snap-align: center;
+  display:flex;
+  flex-direction:column;
+  margin-right: 1em;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #484848;
+  font-weight: bold;
+}
+
+#trending > li > img{
+  margin-bottom: 1em;
+  width: 205px;
+  height: 115px;
+}
+
+#news{
+  width: 100%;
+  margin-left: .5em;
+}
+
+#news > img{
+  height: auto;
+  max-width: 90%;
+  min-width: 0;
+  outline: 0;
+  border-radius: 2%;
+  margin-bottom: 1em;
+}
+
+#news > p{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #484848;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#news > time{
+  color: #484848;
+  font-weight: lighter;
+  font-size: 16px;
+  /* margin-bottom: 2em; */
+}
+
+#newsBlok {
+
+}
+
+#newsBlok > li > img{
+  width: 10em;
+  height: 5em;
+  border-radius: 2%;
+  border: 0.5px solid #484848;
+  margin-left: .5em;
+}
+
+#newsBlok > li > time{
+
+}
+
+#newGames{
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+  margin-left: 1em;
+}
+
+#newGames > li{
+  flex-basis:.25em;
+  flex-shrink:0;
+  align-items: flex-start;
+  scroll-snap-align: center;
+  display:flex;
+  flex-direction:column;
+  margin-right: 1em;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #484848;
+  font-weight: bold;
+}
+
+#newGames > li > img{
+  margin-bottom: 1em;
+  width: 205px;
+  height: 115px;
+}
+p{
+  color:#484848;
+  font-weight: lighter;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+span{
+  color: #484848;
+  font-weight: lighter;
+  font-size: 14px;
+  border-bottom: 2px solid #e60012;
+  padding-bottom: 5px;
+}
+
+small{
+  font-size: 12px;
+  font-weight: lighter;
+  text-decoration: line-through;
+}
+
+.visit{
+  display: block;
+  color: white;
 }
