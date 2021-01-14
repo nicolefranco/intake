@@ -12,7 +12,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://codepen.io/shooft/pen/vYGZqYV (Om te positioneren)
 5. https://codepen.io/shooft/pen/qBZPdGm (Voor de horizontale scroll menu)
 6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-7. 
+7. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky
+8. 
 
 ## Eindgesprek (week 7/8)
 
@@ -38,14 +39,16 @@ Er zijn toch een aantal zaken die ik anders had willen doen, maar dit zal ik mee
 
 ## Voortgang 3 (week 6)
 
-Deze week heb ik niet zoveel kunnen doen aan mijn website. Dit omdat ik erg druk was met andere vakken die prioriteit eisde. Ook denk ik dat ik het ook een beetje heb uitgesteld omdat ik tegen een paar dingen aan liep. Ik weet niet hoe ik de website responsive ga maken en hoe ik een uitklapbare menu moet maken. Ik raak hier enorm gefrustreerd over en kan hierdoor ook niet doorwerken omdat mijn werk dan onafgemaakt is. Ik ga bij klasgenoten vragen hoe zij dit hebben gedaan en nog maar een keertje rustig op mijn gemak googlelen. Ik weet dat het goed komt alleen moet ik even doorzetten. Veder ben ik blij met hoe ver ik ben. mijn detail pagina is op 50% en mijn main pagina op 70% het gaat dus echt de goeie kant op alleen gaat het wat stroefjes omdat mijn motivatie erg laag is. 
-Ik merk ook dat omdat ik niet zo gemotiveerd ben als eerst alles meer moeite kost en ik sneller geneigd ben om werk te stoppen. Ik denk ook niet dat ik de enige ben die het zo ervaar. We hebben namelijk in de klassenapp met elkaar gesproken en veel studenten worstelen met het feit dat niemand meer echt gemotiveerd is en dat we deopdrachten gewoon uitvoeren omdat het moet en dat we er nu weinig plezier aan beleven. 
-Deze week heb ik ook gerpobeerd om mijn code na te checken of het klopt en of ik overal alt tekst heb gebruik, dit kan ik soms nog vergeten.
+Deze week heb ik niet zoveel kunnen doen aan mijn website. Dit omdat ik erg druk was met andere vakken die prioriteit hadden. Ik denk dat ik dit ook een beetje heb uitgesteld omdat ik tegen aantal dingen aan liep. Ik weet niet hoe ik de website responsive ga maken en hoe ik een uitklapbaar menu moet maken. Ik raak hier enorm gefrustreerd door en kan hierdoor ook niet doorwerken omdat mijn werk dan simpelweg nog niet af is. Ik ga bij klasgenoten vragen hoe zij dit hebben gedaan en nog maar een keertje rustig op mijn gemak Googlelen. Ik weet dat het goed komt alleen moet ik even doorzetten. Verder ben ik blij met hoe ver ik ben gekomen. mijn detail pagina is op 50% en mijn main pagina op 70% het gaat dus de goeie kant op alleen gaat het wat stroefjes omdat mijn motivatie wat laag is. 
+Ik merk ook dat omdat ik niet zo gemotiveerd ben als eerst alles meer moeite kost en ik sneller geneigd ben om met werk te stoppen. Ik denk ook niet dat ik de enige ben die het zo ervaart. We hebben namelijk in de klassenapp met elkaar gesproken en veel studenten worstelen met het feit dat niemand meer echt gemotiveerd is en dat we deopdrachten gewoon uitvoeren omdat het moet en dat we er nu weinig plezier aan beleven. 
+Deze week heb ik ook gerpobeerd om mijn code na te lopen of het allemaal klopt en of ik overal alt tekst heb gebruik, dit kan ik soms nog vergeten.
+
+Ook heb ik mijn sticky menu gefixed ik ben hier super trots op!! Ik keek hier enorm tegen op omdat ik dacht dat het echt moeilijk zou zijn. Het is niet perfect zoals bij de nintendo website maar het ziet er best goed uit!
 
 
 **Screenshot(s):**
 
-
+![week6_1] (https://github.com/nicolefranco/intake/blob/main/images/Week3/week6_1.png)
 
 
 
