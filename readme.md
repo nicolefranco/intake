@@ -55,6 +55,38 @@ Ook heb ik mijn sticky menu gefixed ik ben hier super trots op!! Ik keek hier en
 ![week6_1] (https://github.com/nicolefranco/intake/blob/main/images/Week6/week6_3.png)
 
 
+**Agenda voor meeting:**
+
+| Nicole (Ik)      
+ ---                   
+  Mag ik ook andere iconen gebruiken? ipv de originele iconen. 
+
+| Noa   
+ ---
+ Hoe krijg ik mijn menu over de rest van de content?
+
+| Samantha
+ ---
+ Hoe kan je slomer scrollen?
+ scrollbar weghalen en laten werken op desktop
+ js pathname voor code inladen werkt niet online
+
+ | Stein
+ ---
+ Geen vraag
+
+| Maylinn
+ ---
+ Geen vraag
+
+**Verslag meeting:**
+
+Ik liep vast met de iconen en wist niet zo goed waar ik deze vandaan kon halen. Ik heb de tip gekregen om deze gewoon van de website zelf te pakken en dit had ik eerste instantie ook zelf bedacht maar bij de Nintendo website zitten ze goed verstopt. Ook heb ik mee zitten luisteren naar de vraag van Noa. Ik moet binnenkort ook werken aan mijn uitklapbare menu die dan over de tekst heen komt. Ik vind de feedback gesprekken erg fijn omdat ik ook naar andere mensen hun problemen kan luisteren en vaak loop ik zelf ook tegen iets soortgelijks aan en dan krijg ik dit mooi mee. Ook vind ik het erg fijn om in kleinere groepen te werken. Ik heb zo het gevoel mij mening vrij te kunnen uitspreken zonder het gevoel te hebben dat ik de rest van de mensen hun tijd verspil. Ik weet voor deze week genoeg en kan weer veder aan de slag.
+
+**Toegankelijkheid ckeck:**
+
+Ik heb deze week een toegankelijkheid check van mijn website geprobeerd. Dit om te kijken hoe toegankelijk mijn website is naar mensen die een beperking hebben en die een website niet zoals wij kunnen zien. Ik heb een screenreader gebruikt en ben door mijn website heen gegaan. En tot mijn verbazing. was het best toegankeelijk. Ik miste hier een daar Alt tekst en ik merkte ook dat ik afbeeldingen beter kan omschrijven.
+
 ## Voortgang 2 (week 5)
 
 -same as voortgang 1-
