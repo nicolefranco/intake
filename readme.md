@@ -14,13 +14,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 7. 
 
-
-
-
-
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Mijn website is dan eindelijk af. Ik ben iemand die iets te lang door blijft geen wanneer het niet helemaal lukt. Ik kan het dan moeilijk los laten en wil dan niet verder werken omdat ik mij hier erg aan stoor. De eerste weken was ik super gemotiveerd en had ik er veel zin in, maar onder andere door drukte van andere vakken merkte ik dat ik steeds minder ging doen voor frontend. Gelukkig heb ik een inhaalslag kunnen maken in de kerstvakantie en heb ik veel kunnen maken van de weken waarin ik niet zoveel heb gedaan. Ik heb Google veel geraapleegd maar ook vrienden en klasgenoten. Ik wilde eerst voor responsive gaan maar dit was een te grote uitdaging. De website van nintendo is complex en heeft enorm veel content. Daarom heb ik in de kerstvakantie besloten om alleen voor de surface te gaan. Ik wilde de uitdaging aan gaan om een dropdown menu te maken die uitklapt wanneer je er op klikt, maar ook weer dicht gaat als je op een andere klikt. 
+
+Over het algemeen ben ik erg tevreden met mijn website en ook erg trots. Ik heb vaak genoeg met mijn handen in het haar gezeten en snapte niet waarom ik voor de Nintendo website had gekozen. Ik hou van uitdagingen, maar dit werd wel een hele grote. Ik ben blij dat mijn docent Janno aangaf dat ik niet meer van website mocht veranderen en dat ik door moest. Ik heb hier veel van geleerd. 
+
+De website werkt het beste op Iphone 6/7/8 want zo heb ik het gemaakt. Ook werkt de website op webbrowsers: Safari, Brave en Google chrome. 
+
+Er zijn toch een aantal zaken die ik anders had willen doen, maar dit zal ik meenemen voor mijn volgende projecten.
+
+- Optijd beginnen en werk niet uitstellen 
+- Beter mijn tijd managen
+- Minder classes gebruiken
+- Betere en duidelijkere naam geven
+- Proberen minder CSS te schrijven door gebruik te maken van hebruikbare CSS classes
 
 **Screenshot(s):**
 
@@ -30,7 +38,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Deze week heb ik niet zoveel kunnen doen aan mijn website. Dit omdat ik erg druk was met andere vakken die prioriteit eisde. Ook denk ik dat ik het ook een beetje heb uitgesteld omdat ik tegen een paar dingen aan liep. Ik weet niet hoe ik de website responsive ga maken en hoe ik een uitklapbare menu moet maken. Ik raak hier enorm gefrustreerd over en kan hierdoor ook niet doorwerken omdat mijn werk dan onafgemaakt is. Ik ga bij klasgenoten vragen hoe zij dit hebben gedaan en nog maar een keertje rustig op mijn gemak googlelen. Ik weet dat het goed komt alleen moet ik even doorzetten. Veder ben ik blij met hoe ver ik ben. mijn detail pagina is op 50% en mijn main pagina op 70% het gaat dus echt de goeie kant op alleen gaat het wat stroefjes omdat mijn motivatie erg laag is. 
+Ik merk ook dat omdat ik niet zo gemotiveerd ben als eerst alles meer moeite kost en ik sneller geneigd ben om werk te stoppen. Ik denk ook niet dat ik de enige ben die het zo ervaar. We hebben namelijk in de klassenapp met elkaar gesproken en veel studenten worstelen met het feit dat niemand meer echt gemotiveerd is en dat we deopdrachten gewoon uitvoeren omdat het moet en dat we er nu weinig plezier aan beleven. 
+Deze week heb ik ook gerpobeerd om mijn code na te checken of het klopt en of ik overal alt tekst heb gebruik, dit kan ik soms nog vergeten.
+
+
+**Screenshot(s):**
+
+
 
 
 
