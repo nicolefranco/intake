@@ -6,9 +6,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. www.nintendo.com
+2. https://codepen.io/erikterwan/pen/EVzeRP (Voor de hamburger menu)
+3. https://codepen.io/sazzad/pen/pqlgy (Voor de dropdown menu)
+4. https://codepen.io/shooft/pen/vYGZqYV (Om te positioneren)
+5. https://codepen.io/shooft/pen/qBZPdGm (Voor de horizontale scroll menu)
+6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+7. 
+
+
 
 
 
