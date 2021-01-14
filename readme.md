@@ -89,9 +89,19 @@ Ik heb deze week een toegankelijkheid check van mijn website geprobeerd. Dit om 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Ik heb nu bijna alle content die ik nodig heb op mijn pagina. Ik ben voornamelijk bezig geweest met dit zo goed mogelijk te stylen. Het is best veel werk en Nintendo heeft best veel content. Ik snap ook echt niet waarom ik dacht dat dit een makkelijk uitziende website was. Ik ga hierna naar de opticien om mijn ogen nog een keer goed te laten checken.
+Ik heb deze week ook vorderingen gemaakt in het maken van mijn footer. Wat was dat veel werk zeg! Ik heb zoveel moeite gehad met.  
+het naast elkaar te krijgen van de social media icoontjes en dan de tekst er boven. Naja anyways het is mij een soort van gelukt en het ziet er best mooi uit ook al zeg ik het zelf. 
+Wat ik altijd zo leuk vind aan frontend is dat het niet uitmaakt hoe lang je gefrusteerd bent zodra de kleinste dingetje lukt dan vergeet je alle stress, woede, irritaties, frustraties, depressie en vedriet die je voelde. 
 
 
+**Screenshot(s):**
+
+![week5_1] (https://github.com/nicolefranco/intake/blob/main/images/Week5/week5_1.png)
+
+![week5_1] (https://github.com/nicolefranco/intake/blob/main/images/Week5/week5_2.png)
+
+![week5_1] (https://github.com/nicolefranco/intake/blob/main/images/Week5/week5_3.png)
 
 ## Voortgang 1 (week 3)
 
