@@ -1,36 +1,62 @@
 <!doctype html>
 <html lang="en">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="styles/style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<title>Nintendo -Official Site</title>
 </head>
 
 <body>
-	<header>
+	<!-- begin game header -->
+	<header class="header">
 		<a href="index.html">
 			<img src="images/nintendo-logo.original.jpg" alt="Rode logo van Ninetendo">
 		</a>
-		<nav>
-			<img src="images/HamburgerMenu.png" alt="hamburger_menu" >
-		</nav>	
-	</header>
 
+		<svg class="header__login-logo header__login-logo--disabled" width="24" height="24" viewBox="0 0 24 28.5">
+			<path
+				d="M14.8 18.8H9.2c-5.1 0-9.2 4.4-9.2 9.7h24c0-5.4-4.2-9.7-9.2-9.7zM12 18c5 0 9-4 9-9s-4-9-9-9-9 4-9 9 4 9 9 9z">
+			</path>
+		</svg>
+		<h4>Log in</h4>
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span></span>
+			</label>
+
+			<ul class="menu__box">
+				<li><a class="menu__item" href="./detail.html">2de pagina (game detial page)</a></li>
+				<li><a class="menu__item" href="#">Games</a></li>
+				<li><a class="menu__item" href="#">Hardware</a></li>
+				<li><a class="menu__item" href="#">News & events</a></li>
+				<li><a class="menu__item" href="#">Play nintendo</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- einde game info -->
+
+	<!-- begin main -->
 	<main>
-		<img id="homeIMG" src="images/375x211_pd_mobile_HWAOC_V2.jpg" alt="image of heroes">
-		<section id="available">
+		<img class="homeIMG" src="images/375x211_pd_mobile_HWAOC_V2.jpg" alt="image of heroes">
+		<section class="available">
 			<h1>Available now</h1>
 			<button>
 				Visit site
-				<i class="fas fa-angle-right"></i>
+				<svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" role="img">
+					<path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+				</svg>
 			</button>
 		</section>
 		<hr>
-		<ul id="slider">
+		<ul class="slider">
+			<li>
+				<img src="images/photo4.jpg">Available now
+			</li>
 			<li>
 				<img src="images/photo1.jpg">Explore now
 			</li>
@@ -41,33 +67,43 @@
 				<img src="images/photo3.jpg">Available now
 			</li>
 			<li>
-				<img src="images/photo4.jpg">Available now
-			</li>
-			<li>
 				<img src="images/photo5.jpg">Free demo available
 			</li>
 		</ul>
 		<hr>
 
-		<section id="shop">
+		<!-- begin shop section -->
+		<section class="shop">
 			<img src="images/Game_Store_Switch_Games.png">
 			<h2>Game Store: Buy, download, and play right away!</h2>
-			<button>Shop games</button>
+			<section class="container_shop">
+				<section class="background_shop"></section>
+				<h4>Shop games</h4>
+				<svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" role="img">
+					<path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+				</svg>
+			</section>
 		</section>
+		<!-- einde shop section -->
 
 		<hr>
 
-		<section id="explore">
+		<section class="explore">
 			<h3>Explore gaming systems</h3>
 			<img src="images/explore-switch(x2).jpg">
 			<h3>Nintendo Switch and Nintendo Swith Lite</h3>
-			<button>Starting at $199.99<sup>MSRP*</sup><i class="fas fa-angle-right"></i></button>
+			<button>Starting at $199.99<sup>MSRP*</sup>
+				<svg class="arrow_right" wclassth="24" height="24" viewBox="0 0 24 24" aria-hclassden="true" role="img">
+					<path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+				</svg>
+			</button>
 		</section>
-		
+
 		<hr>
 
+		<!-- begin trending games -->
 		<h3>Trending games</h3>
-		<ul id="trending">
+		<ul class="trending">
 			<li>
 				<img src="images/Trending1.jpg">
 				<p>Released: 11/20/2020</p>
@@ -104,91 +140,336 @@
 				<span>Nintendo Swith</span>
 			</li>
 		</ul>
+		<!-- einde trending games -->
 
-		<h>
-			
+		<hr>
+
+		<!-- begin news -->
 		<h3>News</h3>
-		<section id="news">
+		<section class="news">
 			<img src="images/newsimg1.jpg" alt="">
 			<time daytime="11-23-2020">11/23/2020</time>
 			<h4>Save up to 50% on select digital games during the Cyber Deals sale!</h4>
-			<p>Treat yourself this holiday season with big savings on select digital games. Shop on Nintendo.com or your Nintendo Switch™ system to purchase and download games so you can start playing them right away!</p>
-			
+			<p>Treat yourself this holclassay season with big savings on select digital games. Shop on Nintendo.com
+				or your Nintendo Switch™ system to purchase and download games so you can start playing them right
+				away!</p>
+
 			<img src="images/newimg2.jpg" alt="">
 			<time daytime="11-20-2020">11/20/2020</time>
 			<h4>Experience the Untold Story of the Great Calamity in Hyrule Warriors: Age of Calamity Today!</h4>
-			<p>The journey through Hyrule in the Legend of Zelda: Breath of the Wild game was shaped by dynamic characters with rich personal histories. Link and Zelda. Urbosa of the Gerudo. Daruk of the Gorons. Mipha of the Zora. Revali of the Rito. What if more of their stories remain to be told?</p>
+			<p>The journey through Hyrule in the Legend of Zelda: Breath of the Wild game was shaped by dynamic
+				characters with rich personal histories. Link and Zelda. Urbosa of the Gerudo. Daruk of the Gorons.
+				Mipha of the Zora. Revali of the Rito. What if more of their stories remain to be told?</p>
 		</section>
-		
-		<ul id="newsBlok">
+
+		<ul class="newsBlok">
 			<li>
 				<img src="images/news3.jpg" alt="">
 				<time daytime="11-20-2020">11/20/2020</time>
 				<h5>Animal Crossing: Pocket Camp updates!</h5>
 			</li>
-	
-			<li >
+
+			<li>
 				<img src="images/news4.jpg" alt="">
 				<time daytime="11-20-2020">11/20/2020</time>
 				<h5>Nintendo Power Podcast episode 33 available now!</h5>
 			</li>
-	
+
 			<li>
 				<img src="images/news5.jpg" alt="">
 				<time daytime="11-20-2020">11/20/2020</time>
 				<h5>Animal Crossing: Pocket Camp updates!</h5>
 			</li>
-		
+
 			<li>
 				<img src="images/news6.jpg" alt="">
 				<time daytime="11-19-2020">11/19/2020</time>
 				<h5>New save data transfer feature in animal Crossing: New Horizons</h5>
 			</li>
 		</ul>
-		
-		<button class="btnNews">See all news <i class="fas fa-angle-right"></i></button>
+
+		<button class="btnNews">See all news <svg class="arrow_right" wclassth="24" height="24" viewBox="0 0 24 24"
+				aria-hclassden="true" role="img">
+				<path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+			</svg></button>
+		<!-- einde news -->
 
 		<hr>
 
-		<span>See All</span>
+		<!-- einde new video games -->
+		<span class="see-all">See All</span>
 		<h3>New video game releases</h3>
-		<ul id="newGames">
+		<ul class="newGames">
 			<li>
 				<img src="images/Trending1.jpg">
-					<p>11/20/2020</p>
-						<h4>Hyrule Warriors: Age of Calamity</h4>
+				<p>11/20/2020</p>
+				<h4>Hyrule Warriors: Age of Calamity</h4>
 				<span>Nintendo Swith</span>
 			</li>
 			<li>
 				<img src="images/photo5.jpg">
-					<p>12/04/2020</p>
-						<h4>Fitness Boxing 2: Rhythm & Exercise</h4>
+				<p>12/04/2020</p>
+				<h4>Fitness Boxing 2: Rhythm & Exercise</h4>
 				<span>Nintendo Swith</span>
 			</li>
 			<li>
 				<img src="images/newVideoGame4.jpg">
-					<p>11/13/2020</p>
-						<h4>KINGDOM HEART Melody of Memory</h4>
+				<p>11/13/2020</p>
+				<h4>KINGDOM HEART Melody of Memory</h4>
 				<span>Nintendo Swith</span>
 			</li>
 			<li>
 				<img src="images/Trending2.jpg">
-					<p>11/12/2020</p>
-						<h4>JJust Dance® 2021</h4>
+				<p>11/12/2020</p>
+				<h4>JJust Dance® 2021</h4>
 				<span>Nintendo Swith</span>
 			</li>
 			<li>
 				<img src="images/newVideoGame5.jpg">
-					<p>11/10/2020</p>
-						<h4>Sakuna: Of Rice and Ruin</h4>
+				<p>11/10/2020</p>
+				<h4>Sakuna: Of Rice and Ruin</h4>
 				<span>Nintendo Swith</span>
 			</li>
 		</ul>
 		<hr>
 		<h3>Characters</h3>
+		<div class="characters_container">
+			<section>
+				<img class="characters" src="images/characters/character1.png">
+				<h5>Mario™</h5>
+			</section>
+			<section>
+				<img class="characters" src="images/characters/character2.png">
+				<h5>The Legend of Zelda™</h5>
+			</section>
+			<section>
+				<img class="characters" src="images/characters/character3.png">
+				<h5>Animal Crossing™</h5>
+			</section>
+			<section>
+				<img class="characters" src="images/characters/character4.png">
+				<h5>Kirby™</h5>
+			</section>
+		</div>
+		<p class="txt_characters">
+			MSRP: Manufacturer's Retail Price. Actual price may vary. See retailer for details.
+		</p>
+
+		<ul class="dropdown">
+			<li class="button-dropdown">
+				<h4 class="dropdown-toggle first">About Nintendo
+					<svg class="dropdown-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"></path>
+					</svg>
+				</h4>
+				<ul class="starthidden dropdown-menu">
+					<li>
+						<p>Company Info</p>
+					</li>
+					<li>
+						<p>Careers</p>
+					</li>
+					<li>
+						<p>CRS Report</p>
+					</li>
+					<li>
+						<p>Sitemap</p>
+					</li>
+				</ul>
+			</li>
+			<li class="button-dropdown">
+				<h4 class="dropdown-toggle">Where To Buy
+					<svg class="dropdown-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"></path>
+					</svg>
+				</h4>
+				<ul class="starthidden dropdown-menu">
+					<li>
+						<p>Game Store</p>
+					</li>
+					<li>
+						<p>Online Retailers</p>
+					</li>
+					<li>
+						<p>Nintendo NY</p>
+					</li>
+					<li>
+						<p>Nintendo Sotre</p>
+					</li>
+				</ul>
+			</li>
+
+			<li class="button-dropdown">
+				<h4 class="dropdown-toggle">Support
+					<svg class="dropdown-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"></path>
+					</svg>
+				</h4>
+				<ul class="starthidden dropdown-menu">
+					<li>
+						<p>Health & Safety Precautions</p>
+					</li>
+					<li>
+						<p>Updated Warranty</p>
+					</li>
+					<li>
+						<p>Nintendo Switch Support</p>
+					</li>
+					<li>
+						<p>Wii U support</p>
+					</li>
+					<li>
+						<p>Nintendo 3DS Support</p>
+					</li>
+					<li>
+						<p>Repair help</p>
+					</li>
+					<li>
+						<p>Nintendo Product Recycling</p>
+					</li>
+				</ul>
+			</li>
+			<li class="button-dropdown">
+				<h4 class="dropdown-toggle">Parents
+					<svg class="dropdown-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"></path>
+					</svg>
+				</h4>
+				<ul class="starthidden dropdown-menu">
+					<li>
+						<p>Info for Parents</p>
+					</li>
+					<li>
+						<p>Parental Controls</p>
+					</li>
+					<li>
+						<p>Online Safety Principles</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h4>Legal</h4>
+			</li>
+			<li>
+				<h4>Privacy</h4>
+			</li>
+			<li>
+				<h4>Change Region</h4>
+			</li>
+		</ul>
 	</main>
-	
-	<script src="scripts/script.js"></script>
+	<!-- einde main -->
+
+	<!-- begin footer -->
+	<footer>
+		<section>
+			<h5>Conact Us</h5>
+			<h5>Website Feedback</h5>
+		</section>
+
+		<ul class="container_footer">
+			<li class="background1">
+				<svg class="footerSvg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"
+					width="30" height="30">
+					<path
+						d="M1024,512C1024,229.23,794.77,0,512,0S0,229.23,0,512c0,255.55,187.23,467.37,432,505.78V660H302V512H432V399.2C432,270.88,508.44,200,625.39,200c56,0,114.61,10,114.61,10V336H675.44c-63.6,0-83.44,39.47-83.44,80v96H734L711.3,660H592v357.78C836.77,979.37,1024,767.55,1024,512Z"
+						fill="#fff"></path>
+				</svg>
+			</li>
+			<li class="background2">
+				<svg class="footerSvg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+					width="30" height="30" fill="#fff">
+					<path
+						d="M256,49.47c67.27,0,75.23.26,101.8,1.47,24.56,1.12,37.9,5.22,46.78,8.67a78,78,0,0,1,29,18.85,78,78,0,0,1,18.85,29c3.45,8.88,7.55,22.22,8.67,46.78,1.21,26.57,1.47,34.53,1.47,101.8s-.26,75.23-1.47,101.8c-1.12,24.56-5.22,37.9-8.67,46.78a83.51,83.51,0,0,1-47.81,47.81c-8.88,3.45-22.22,7.55-46.78,8.67-26.56,1.21-34.53,1.47-101.8,1.47s-75.24-.26-101.8-1.47c-24.56-1.12-37.9-5.22-46.78-8.67a78,78,0,0,1-29-18.85,78,78,0,0,1-18.85-29c-3.45-8.88-7.55-22.22-8.67-46.78-1.21-26.57-1.47-34.53-1.47-101.8s.26-75.23,1.47-101.8c1.12-24.56,5.22-37.9,8.67-46.78a78,78,0,0,1,18.85-29,78,78,0,0,1,29-18.85c8.88-3.45,22.22-7.55,46.78-8.67,26.57-1.21,34.53-1.47,101.8-1.47m0-45.39c-68.42,0-77,.29-103.87,1.52S107,11.08,91,17.3A123.68,123.68,0,0,0,46.36,46.36,123.68,123.68,0,0,0,17.3,91c-6.22,16-10.48,34.34-11.7,61.15S4.08,187.58,4.08,256s.29,77,1.52,103.87S11.08,405,17.3,421a123.68,123.68,0,0,0,29.06,44.62A123.52,123.52,0,0,0,91,494.69c16,6.23,34.34,10.49,61.15,11.71s35.45,1.52,103.87,1.52,77-.29,103.87-1.52S405,500.92,421,494.69A128.74,128.74,0,0,0,494.69,421c6.23-16,10.49-34.34,11.71-61.15s1.52-35.45,1.52-103.87-.29-77-1.52-103.87S500.92,107,494.69,91a123.52,123.52,0,0,0-29.05-44.62A123.68,123.68,0,0,0,421,17.3c-16-6.22-34.34-10.48-61.15-11.7S324.42,4.08,256,4.08Z">
+					</path>
+					<path
+						d="M256,126.64A129.36,129.36,0,1,0,385.36,256,129.35,129.35,0,0,0,256,126.64ZM256,340a84,84,0,1,1,84-84A84,84,0,0,1,256,340Z">
+					</path>
+					<circle cx="390.48" cy="121.52" r="30.23"></circle>
+				</svg>
+			</li>
+			<li class="background3">
+				<svg class="footerSvg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 203.18"
+					width="30" height="24">
+					<path
+						d="M78.62,203.18C173,203.18,224.56,125,224.56,57.24q0-3.33-.15-6.63A104.24,104.24,0,0,0,250,24.05a102.11,102.11,0,0,1-29.46,8.08A51.52,51.52,0,0,0,243.1,3.76a103.15,103.15,0,0,1-32.57,12.45A51.34,51.34,0,0,0,123.12,63,145.59,145.59,0,0,1,17.4,9.39,51.33,51.33,0,0,0,33.28,77.87a50.87,50.87,0,0,1-23.23-6.42c0,.22,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.29,51.42,51.42,0,0,1-23.17.88,51.34,51.34,0,0,0,47.92,35.62,102.91,102.91,0,0,1-63.7,22A105.19,105.19,0,0,1,0,180.14a145.17,145.17,0,0,0,78.62,23"
+						fill="#fff"></path>
+				</svg>
+			</li>
+			<li class="background4">
+				<svg class="footerSvg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.48 85.04"
+					width="30" height="21">
+					<path
+						d="M119,13.28A15.23,15.23,0,0,0,108.21,2.54C98.73,0,60.74,0,60.74,0s-38,0-47.46,2.54A15.21,15.21,0,0,0,2.54,13.28C0,22.75,0,42.52,0,42.52S0,62.29,2.54,71.76A15.21,15.21,0,0,0,13.28,82.5C22.75,85,60.74,85,60.74,85s38,0,47.47-2.54A15.23,15.23,0,0,0,119,71.76c2.53-9.47,2.53-29.24,2.53-29.24S121.48,22.75,119,13.28ZM48.59,60.74V24.3L80.16,42.52Z"
+						fill="#fff"></path>
+				</svg>
+			</li>
+		</ul>
+		<p>© 2020 Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in
+			Redmond, Washington</p>
+
+
+	</footer>
+	<!-- einde footer -->
+
+	<!-- begin sticky nav -->
+	<nav>
+		<ul>
+			<li>
+				<a href="#" class="nav_games">
+					<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M38.8238916 20.7061928h-5.1761084c-.7141887 0-1.2938073.5796186-1.2938073 1.2946867 0 .7133091.5796186 1.2929277 1.2938073 1.2929277h5.1761084c.7141886 0 1.2946867-.5796186 1.2946867-1.2929277 0-.7150681-.5804981-1.2946867-1.2946867-1.2946867zM23.2946868 33.6477832c0-.7150682-.5796186-1.2946868-1.2938073-1.2946868-.7150681 0-1.2946867.5796186-1.2946867 1.2946868v5.1761084c0 .7141886.5796186 1.2938072 1.2946867 1.2938072.7141887 0 1.2938073-.5796186 1.2938073-1.2938072v-5.1761084zm0-28.47079523c0-.71506817-.5796186-1.29468677-1.2938073-1.29468677-.7150681 0-1.2946867.5796186-1.2946867 1.29468677v5.17610843c0 .7141886.5796186 1.2938072 1.2946867 1.2938072.7141887 0 1.2938073-.5796186 1.2938073-1.2938072V5.17698797zM10.3530964 20.7061928H5.17698797c-.71418863 0-1.29468677.5796186-1.29468677 1.2946867 0 .7133091.58049814 1.2929277 1.29468677 1.2929277h5.17610843c.7141886 0 1.2946868-.5796186 1.2946868-1.2929277 0-.7150681-.5804982-1.2946867-1.2946868-1.2946867zm31.0592892 9.0592891H29.7654819v11.6469037C29.7654819 42.8425219 28.6071243 44 27.176988 44H16.8238916c-1.4301364 0-2.588494-1.1574781-2.588494-2.5876144V29.7654819H2.58849398C1.15835765 29.7654819 0 28.6062448 0 27.1761084V16.8238916c0-1.4301364 1.15835765-2.588494 2.58849398-2.588494H14.2353976V2.58849398C14.2353976 1.15835765 15.3937552 0 16.8238916 0H27.176988c1.4301363 0 2.5884939 1.15835765 2.5884939 2.58849398V14.2353976h11.6469037c1.4301363 0 2.5884939 1.1583576 2.5884939 2.588494v10.3522168c0 1.4301364-1.1583576 2.5893735-2.5884939 2.5893735z">
+						</path>
+					</svg>
+					<p>Games</p>
+				</a>
+			</li>
+			<li>
+				<a class="nav_nintendo">
+					<svg viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg">
+						<g fill-rule="nonzero">
+							<path
+								d="M5.14857143 10.8964286c-.42095238 0-.74476191-.3214286-.74476191-.7071429 0-.38571427.32380953-.70714284.74476191-.70714284.38857143 0 .7447619.32142857.7447619.70714284-.03238095.3857143-.35619047.7071429-.7447619.7071429M3.59428571 9.38571429c-.42095238 0-.7447619-.32142858-.7447619-.70714286 0-.38571429.32380952-.70714286.7447619-.70714286.42095239 0 .74476191.32142857.74476191.70714286-.03238095.38571428-.35619048.70714286-.74476191.70714286m0 3.05357141c-.42095238 0-.7447619-.3214286-.7447619-.7071428 0-.3857143.32380952-.7071429.7447619-.7071429.42095239 0 .74476191.3214286.74476191.7071429 0 .3857142-.35619048.7071428-.74476191.7071428M2.04 10.8964286c-.42095238 0-.7447619-.3214286-.7447619-.7071429 0-.38571427.32380952-.70714284.7447619-.70714284.42095238 0 .7447619.32142857.7447619.70714284-.03238095.3857143-.35619047.7071429-.7447619.7071429m1.55428571-8.03571431c.90666667 0 1.61904762.70714285 1.61904762 1.60714285 0 .86785715-.71238095 1.60714286-1.61904762 1.60714286-.90666666 0-1.61904761-.70714286-1.61904761-1.60714286 0-.9.71238095-1.60714285 1.61904761-1.60714285M7.02666667 0H3.95047619C1.81333333 0 .0647619 1.70357143.0647619 3.79285714V14.175c0 2.0892857 1.74857143 3.825 3.88571429 3.825h3.07619048c.0647619 0 .09714285-.0321429.09714285-.0964286V.09642857C7.12380952.03214286 7.05904762 0 7.02666667 0M14.7980952 5.625c-.4209523 0-.7447619-.32142857-.7447619-.70714286 0-.38571428.3238096-.70714285.7447619-.70714285.3885715 0 .7447619.32142857.7447619.70714285 0 .38571429-.3238095.70714286-.7447619.70714286m-1.5542857 6.5892857c-.9066666 0-1.6190476-.7071428-1.6190476-1.6071428C11.6247619 9.73928571 12.3371429 9 13.2438095 9c.9066667 0 1.6190476.70714286 1.6190476 1.6071429 0 .9-.7123809 1.6071428-1.6190476 1.6071428m-2.2666666-7.29642856c0-.38571428.3238095-.70714285.7447619-.70714285.4209523 0 .7447619.32142857.7447619.70714285 0 .38571429-.3238096.70714286-.7447619.70714286-.4209524 0-.7447619-.32142857-.7447619-.70714286m2.2666666.80357143c.4209524 0 .7447619.32142857.7447619.70714286 0 .38571428-.3238095.70714286-.7447619.70714286s-.7447619-.32142858-.7447619-.70714286c.032381-.38571429.3561905-.70714286.7447619-.70714286m0-3.05357143c.4209524 0 .7447619.32142857.7447619.70714286s-.3238095.70714286-.7447619.70714286-.7447619-.32142857-.7447619-.70714286c.032381-.38571429.3561905-.70714286.7447619-.70714286M12.92 0H9.84380952c-.0647619 0-.12952381.03214286-.12952381.09642857V17.9035714c0 .0642857.03238096.0964286.09714286.0964286H12.887619c2.1371429 0 3.8857143-1.7035714 3.8857143-3.825V3.79285714C16.7733333 1.70357143 15.0571429 0 12.92 0">
+							</path>
+						</g>
+					</svg>
+					<p>Nintendo Switch</p>
+				</a>
+			</li>
+			<li>
+				<a>
+					<img src="images/Search.png" alt="search icon">
+				</a>
+			</li>
+			<li>
+				<a class="nav_deald">
+					<svg viewBox="0 0 45 46" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M23.24074079 2.54605578c.38527448-.38527449.91105957-.596684 1.45580223-.58535399l12.85699675.26741052c.51592375.0107306 1.00773285.22046194 1.37262491.585354l4.78896454 4.78896454c.36489206.36489206.57462332.85670109.58535395 1.37262486l.26741053 12.85699677c.01132998.54474262-.20007954 1.0705277-.58535402 1.45580219L21.99306155 45.2773328c-.78104858.78104858-2.04737854.78104858-2.82842713 0L1.25126266 27.36396103c-.78104859-.78104858-.78104859-2.04737854 0-2.82842712L23.24074079 2.54605578zm9.19056375 5.62500693c-1.63648275 1.63648275-1.63648275 4.28974553 0 5.92622828 1.63648275 1.63648275 4.28974552 1.63648275 5.92622827 0 1.63648275-1.63648275 1.63648275-4.28974553 0-5.92622828-1.63648275-1.63648275-4.28974552-1.63648275-5.92622827 0z"
+							fill-rule="evenodd"></path>
+					</svg>
+					<p>Deals</p>
+				</a>
+			</li>
+			<li>
+				<a class="nav_news">
+					<svg viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+						<g fill-rule="evenodd">
+							<path
+								d="M1.875 11.4593476c0-.0329031.04367305-.0593547.09759039-.0593547h6.67981922c.05391734 0 .09759039.0264516.09759039.0593547v.6312884c0 .0332258-.04367305.0593547-.09759039.0593547H1.97259039c-.05391734 0-.09759039-.0261289-.09759039-.0593547v-.6312884zM0 13.3208708c0 .6388334.56992352 1.1985031 1.22108336 1.1985031h5.44424127c.53120934 0 1.03385904.2417871 1.36134294.6437429C9.26408186 17.0575671 9.95454426 18.0031948 10.0980548 18c.1435105-.003258.8341844-.9705688 2.0720218-2.9019326.3262146-.401342.8288643-.5786935 1.3607083-.5786935h5.2487664c.6498905 0 1.2204487-.5596697 1.2204487-1.1985031V9H0v4.3208708zM1.22104462 0C.54769309 0 0 .50559666 0 1.12711061V7h20V1.12711061C20 .50559666 19.4523069 0 18.7789554 0H1.22104462z">
+							</path>
+						</g>
+					</svg>
+					<p>News</p>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- einde sticky nav -->
+
+	<script src="scripts/script.js">
+	</script>
 </body>
-	
+
 </html>
