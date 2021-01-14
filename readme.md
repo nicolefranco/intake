@@ -85,14 +85,11 @@ Ik liep vast met de iconen en wist niet zo goed waar ik deze vandaan kon halen. 
 
 **Toegankelijkheid ckeck:**
 
-Ik heb deze week een toegankelijkheid check van mijn website geprobeerd. Dit om te kijken hoe toegankelijk mijn website is naar mensen die een beperking hebben en die een website niet zoals wij kunnen zien. Ik heb een screenreader gebruikt en ben door mijn website heen gegaan. En tot mijn verbazing. was het best toegankeelijk. Ik miste hier een daar Alt tekst en ik merkte ook dat ik afbeeldingen beter kan omschrijven.
+Ik heb deze week een toegankelijkheidscheck van mijn website geprobeerd. Dit om te kijken hoe toegankelijk mijn website is naar mensen die een beperking hebben en die een website niet zoals wij kunnen zien. Ik heb een screenreader gebruikt en ben door mijn website heen gegaan. Tot mijn verbazing was het toegankelijk. Ik miste hier een daar Alt tekst en ik merkte ook dat ik afbeeldingen beter kan omschrijven.
 
 ## Voortgang 2 (week 5)
 
-Ik heb nu bijna alle content die ik nodig heb op mijn pagina. Ik ben voornamelijk bezig geweest met dit zo goed mogelijk te stylen. Het is best veel werk en Nintendo heeft best veel content. Ik snap ook echt niet waarom ik dacht dat dit een makkelijk uitziende website was. Ik ga hierna naar de opticien om mijn ogen nog een keer goed te laten checken.
-Ik heb deze week ook vorderingen gemaakt in het maken van mijn footer. Wat was dat veel werk zeg! Ik heb zoveel moeite gehad met.  
-het naast elkaar te krijgen van de social media icoontjes en dan de tekst er boven. Naja anyways het is mij een soort van gelukt en het ziet er best mooi uit ook al zeg ik het zelf. 
-Wat ik altijd zo leuk vind aan frontend is dat het niet uitmaakt hoe lang je gefrusteerd bent zodra de kleinste dingetje lukt dan vergeet je alle stress, woede, irritaties, frustraties, depressie en vedriet die je voelde. 
+Ik heb nu bijna alle content die ik nodig heb op mijn pagina. Ik ben voornamelijk bezig geweest om dit zo goed mogelijk te stylen. Het is veel werk en Nintendo heeft veel content. Ik snap ook helemaal niet waarom ik dacht dat dit een makkelijk website zou zijn. Ik heb deze week ook progress gemaakt in het maken van mijn footer. Wat was dat veel werk zeg. Ik heb veel moeite gehad met het naast elkaar te krijgen van de social media icoontjes en de tekst erboven.  Het is mij een soort van gelukt en het ziet er mooi uit ook al zeg ik het zelf. Wat ik altijd zo leuk vind aan frontend is dat het niet uitmaakt hoe lang je gefrusteerd bent zodra de kleinste dingetje lukt dan vergeet je alle stress, woede, irritaties, frustraties en vedriet die ik voelde. 
 
 
 **Screenshot(s):**
