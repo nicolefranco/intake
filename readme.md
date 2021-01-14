@@ -103,6 +103,35 @@ Wat ik altijd zo leuk vind aan frontend is dat het niet uitmaakt hoe lang je gef
 
 ![week5_1] (https://github.com/nicolefranco/intake/blob/main/images/Week5/week5_3.png)
 
+### Agenda voor meeting
+
+| Nicole (Ik)      
+ ---                   
+ Vraag over hamburger menu
+
+| Noa   
+ ---
+ Hoe maak ik een hamburger menu?
+ Vraag over pijltjes bij verschillende sections
+
+| Samantha
+ ---
+ Hoe zorg ik er voor dat mijn animatie bij 10 graden begint?
+
+ | Stein
+ ---
+ Geen vragen
+
+| Maylinn
+ ---
+ Ik heb een vraag over de scaling van de tekst en de video
+ 
+ 
+ **Verslag meeting:**
+ 
+ De feedback gesprek verliep goed. Ik heb mijn vraag kunnen stellen en ik heb hier ook een antwoord op gehad. Alleen weet ik niet of er veel van is blijven hangen.  Ik moet gewoon weer hard aan het werk en dan heb ik er alle vertrouwen in dat het gaat lukken. Ik heb het behoorlijk druk met andere vakken waardoor ik telkens wenig tijd heb voor frontend. Dit hebben we bij de docent aangegeven.
+ 
+
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
@@ -155,7 +184,7 @@ Samen met mijn groepje hebben we een agenda opgesteld voor een feedbackgesprek. 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Na de feedback gesprek had ik antwoorden op al mijn vragen. Ook heb ik meegeluisterd bij de vragen van de rest en sommige dingen heb ik voor mijzelf opgeschreven. Ook ga ik deze week veder met mijn detail pagina.
 
 
 
