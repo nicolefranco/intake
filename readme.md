@@ -49,7 +49,9 @@ Ook heb ik mijn sticky menu gefixed ik ben hier super trots op!! Ik keek hier en
 **Screenshot(s):**
 
 ![week6_1] (https://github.com/nicolefranco/intake/blob/main/images/Week6/week6_1.png)
+
 ![week6_1] (https://github.com/nicolefranco/intake/blob/main/images/Week6/week6_2.png)
+
 ![week6_1] (https://github.com/nicolefranco/intake/blob/main/images/Week6/week6_3.png)
 
 
