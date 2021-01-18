@@ -13,7 +13,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 5. https://codepen.io/shooft/pen/qBZPdGm (Voor de horizontale scroll menu)
 6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 7. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky
-8. 
+
+## Eindgesprek (week 9)
+
+Helaas moet ik mijn opdracht herkansen, omdat er een aantal dingen waren die niet klopte. Ondanks het feit dat ik enorm mijn best heb gedaan met mijn website was ik een paar essentiële dingen vergeten, zoals mijn code door W3C te halen en kleine errors uit mijn HTML en CSS te halen.  Door tijdsnood kon ik niet meer langs mijn hele code gaan om goed te controleren of alles netjes stond en door bijvoorbeeld al mijn ALT tekst te controleren op goede beschrijvende tekst. Soms als ik aan het werk was wilde ik niet te veel aandacht besteden aan de ALT tekst en wilde ik dit op het einde doen. Ik heb van mijn docent te horen gekregen dat de website er goed uit ziet en dat ik trots mag zijn op wat ik gemaakt heb. 
+Om mijn herkansing te halen ga ik de volgende punten aapassen:
+
+1. JQUERY uit de code halen.
+2. Mijn code door W3C halen.
+3. Duplicate css weg halen.
+4. Mijn CSS van generiek naar specifiek laten lopen.
+5. ALT tekst controleren.
+6. omdat ik nu voor de surface plane ga moet ik 5 interacties maken, deze zijn:
+   1. Move to top knop (met een transitie)
+   2. Hamburger menu die uitklapt
+   3. Menu die uitklapt als er op geklikt wordt en inklapt als er op een ander menu wordt geklikt. (Pijltje wijst naar boven als er nog       niet op is geklikt en wijst naar beneden als er wel op is geklikt).
+   4. Als je langs de Characters afbeeldingen hovert die een achtergrond krijgen.
+   5. Wanneer op je op de characters afbeeldingen klikt veranderd ook de afbeelden. (Mario wordt luigi)
 
 ## Eindgesprek (week 7/8)
 
