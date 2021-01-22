@@ -22,7 +22,7 @@
 			</path>
 		</svg>
 		<h4>Log in</h4>
-		<div class="hamburger-menu">
+		<nav class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" />
 			<label class="menu__btn" for="menu__toggle">
 				<span></span>
@@ -37,7 +37,7 @@
 				<li><a class="menu__item" href="#">News & events</a></li>
 				<li><a class="menu__item" href="#">Play nintendo</a></li>
 			</ul>
-		</div>
+		</nav>
 	</header>
 	<!-- einde game info -->
 
@@ -67,13 +67,13 @@
 		<section class="shop">
 			<img src="images/Game_Store_Switch_Games.png" alt="Switch controler"/>
 			<h2>Game Store: Buy, download, and play right away!</h2>
-			<div class="container_shop">
+			<section class="container_shop">
 				<div class="background_shop"></div>
 				<h4>Shop games</h4>
 				<svg class="arrow_right" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" role="img">
 					<path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
 				</svg>
-			</div>
+			</section>
 		</section>
 		<!-- einde shop section -->
 
@@ -242,28 +242,28 @@
 		<h3>Characters</h3>
 		<div class="characters_container">
 			<section>
-				<div class="image-container" onclick="changeCharacters()">
+				<figure class="image-container" onclick="changeCharacters()">
 					<img id="mario" class="characters show" src="images/characters/character1.png" alt="Mario"/>
 					<img id="kirby" class="characters" src="images/characters/character4.png" alt="Kirby"/>
-				</div>
+				</figure>
 				<h5>Mario™</h5>
 			</section>
 			<section>
-				<div class="image-container">
+				<figure class="image-container">
 					<img class="characters" src="images/characters/character2.png" alt="Zelda"/>
-				</div>
+				</figure>
 				<h5>The Legend of Zelda™</h5>
 			</section>
 			<section>
-				<div class="image-container">
+				<figure class="image-container">
 					<img class="characters" src="images/characters/character3.png" alt="Animal crossing"/>
-				</div>
+				</figure>
 				<h5>Animal Crossing™</h5>
 			</section>
 			<section>
-				<div class="image-container">
+				<figure class="image-container">
 					<img class="characters" src="images/characters/character4.png" alt="Kirby"/>
-				</div>
+				</figure>
 				<h5>Kirby™</h5>
 			</section>
 		</div>
@@ -432,7 +432,7 @@
 		</p>
 	</footer>
 	<!-- einde footer -->
-	<button class="scroll-to-top-button" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>
+	<button id="top-button" class="scroll-to-top-button">
 		☝️
 	</button>
 	<!-- begin sticky nav -->

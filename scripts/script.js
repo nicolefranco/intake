@@ -1,50 +1,51 @@
-// maak een object met alle dropdown elementen .dropdown elementen
-var dropdown = document.getElementsByClassName("button-dropdown");
-// loop door "dropdown"
-for (var d = 0; d < dropdown.length; d++) {
-    //verstuur elk element naar de "dropdownListen" functie om te bepalen wanneer er op geklikt wordt
-    dropdownListen(dropdown[d]);
-}
+// // maak een object met alle dropdown elementen .dropdown elementen
+// var dropdown = document.getElementsByClassName("button-dropdown");
+// // loop door "dropdown"
+// // aan de hand van hoeveel dropdown elementen er zijn gevonden loop je er door heen en elke keer als je dat loopje doet gaat die functie for uitvoeren.
+// for (var d = 0; d < dropdown.length; d++) {
+//     //verstuur elk element naar de "dropdownListen" functie om te bepalen wanneer er op geklikt wordt
+//     dropdownListen(dropdown[d]);
+// }
 
-function dropdownListen(elem) {
-    elem.onclick = function (e) {
-        //ga niet veder als er binnen de dropdown is geklikt
-        if (!e.target.matches('.dropdown-menu-item, .dropdown-body, p')) {
-            // Als er een huidige dropdown nog niet open is, check dan alle andere en sluit deze als deze open zijn.
-            if (!this.classList.contains('active')) {
-                // maak een object met alle dropdown elementen .dropdown elementen, opnieuw
-                var dropdowns = document.getElementsByClassName("dropdown");
-                // loop door de "dropdowns"
-                for (var d = 0; d < dropdowns.length; d++) {
-                    var openDropdown = dropdowns[d];
-                    // verwijder class "active" als er een open dropdown word gevonden
-                    if (openDropdown.classList.contains('active')) {
-                        openDropdown.classList.remove('active');
-                    }
-                }
-            }
-            //toggle (aan/uit) de class van de dropdown dat geklikt word.
-            this.classList.toggle('active');
-        }
-    };
-}
-document.onclick = function (e) {
-    //sluit elke open dropdown wanneer er geklikt buiten de dropdown
-    if (!e.target.matches('.dropdown-toggle, .dropdown-menu-item, .dropdown-body, p')) {
-        // maak een object met alle dropdwon elementen, opnieuw
-        var dropdowns = document.getElementsByClassName("dropdown");
-        // loop door dropdowns
-        for (var d = 0; d < dropdowns.length; d++) {
-            var openDropdown = dropdowns[d];
-            //verwijder class active als er een open dropdwon is gevonden
-            if (openDropdown.classList.contains('active')) {
-                openDropdown.classList.remove('active');
-            }
-        }
-    }
-}
+// function dropdownListen(elem) {
+//     elem.onclick = function (e) {
+//         //ga niet veder als er binnen de dropdown is geklikt
+//         if (!e.target.matches('.dropdown-menu-item, .dropdown-body, p')) {
+//             // Als er een huidige dropdown nog niet open is, check dan alle andere en sluit deze als deze open zijn.
+//             if (!this.classList.contains('active')) {
+//                 // maak een object met alle dropdown elementen .dropdown elementen, opnieuw
+//                 var dropdowns = document.getElementsByClassName("dropdown");
+//                 // loop door de "dropdowns"
+//                 for (var d = 0; d < dropdowns.length; d++) {
+//                     var openDropdown = dropdowns[d];
+//                     // verwijder class "active" als er een open dropdown word gevonden
+//                     if (openDropdown.classList.contains('active')) {
+//                         openDropdown.classList.remove('active');
+//                     }
+//                 }
+//             }
+//             //toggle (aan/uit) de class van de dropdown dat geklikt word.
+//             this.classList.toggle('active');
+//         }
+//     };
+// }
+// document.onclick = function (e) {
+//     //sluit elke open dropdown wanneer er geklikt buiten de dropdown
+//     if (!e.target.matches('.dropdown-toggle, .dropdown-menu-item, .dropdown-body, p')) {
+//         // maak een object met alle dropdwon elementen, opnieuw
+//         var dropdowns = document.getElementsByClassName("dropdown");
+//         // loop door dropdowns
+//         for (var d = 0; d < dropdowns.length; d++) {
+//             var openDropdown = dropdowns[d];
+//             //verwijder class active als er een open dropdwon is gevonden
+//             if (openDropdown.classList.contains('active')) {
+//                 openDropdown.classList.remove('active');
+//             }
+//         }
+//     }
+// }
 
-//scroll naar top functionalteit
+//scroll to top functionalteit
 var rootElement = document.documentElement;
 var scrollToTopBtn = document.querySelector(".scroll-to-top-button")
 
@@ -61,7 +62,14 @@ function handleScroll() {
 }
 document.addEventListener("scroll", handleScroll);
 
-// Mario, Kirby onclick verandering
+var topButtton = document.getElementById("top-button");
+topButtton.addEventListener("click", scrollToTop);
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+
+// Verandering van Mario naar Kirby als er op geklikt
 var mario = document.getElementById("mario");
 var kirby = document.getElementById("kirby");
 function changeCharacters() {

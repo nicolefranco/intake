@@ -242,6 +242,7 @@ h5 {
   overflow: auto;
   scroll-snap-type: mandatory;
   margin-left: 1em;
+  margin-top: 25px;
 }
 
 .trending > li {
@@ -812,6 +813,7 @@ footer h5 {
 footer {
   background-color: #484848;
   padding: 1em 0 6em;
+  margin-top: 25px;
 }
 
 .footerSvg {
