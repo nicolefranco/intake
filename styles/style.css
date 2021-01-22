@@ -9,17 +9,13 @@
   text-decoration: none;
 }
 
-.none {
-  display: none;
-}
-
 .header {
   position: relative;
   height: 55px;
   width: 100%;
 }
 
-.header>a>img {
+.header > a > img {
   position: absolute;
   max-width: 93px;
   height: 55px;
@@ -37,7 +33,7 @@
   transform: translateY(-50%);
 }
 
-.header>h4 {
+.header > h4 {
   position: absolute;
   color: #484848;
   font-size: 15px;
@@ -46,7 +42,7 @@
   transform: translateY(-50%);
 }
 
-.header>img {
+.header > img {
   position: absolute;
   width: 25px;
   height: 20px;
@@ -82,14 +78,14 @@ h1 {
   margin-right: 10px;
 }
 
-.available>button {
+.available > button {
   position: relative;
   padding: 10px 25px 10px 10px;
   border: 1px solid #e60012;
   color: white;
   background-color: #e60012;
   border-radius: 4px;
-  margin-left: .5em;
+  margin-left: 0.5em;
   font-size: 18px;
 }
 
@@ -98,7 +94,7 @@ h1 {
   fill: white;
   width: 15px;
   height: 15px;
-  margin-left: .25em;
+  margin-left: 0.25em;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -112,6 +108,10 @@ hr {
   width: 95%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .slider {
   display: flex;
   overflow: auto;
@@ -120,8 +120,8 @@ hr {
   padding-bottom: 1em;
 }
 
-.slider>li {
-  flex-basis: .25em;
+.slider > li {
+  flex-basis: 0.25em;
   flex-shrink: 0;
   align-items: flex-start;
   scroll-snap-align: center;
@@ -134,7 +134,7 @@ hr {
   font-weight: bold;
 }
 
-.slider>li>img {
+.slider > li > img {
   margin-bottom: 1em;
   width: 205px;
   height: 115px;
@@ -150,7 +150,7 @@ hr {
   padding-bottom: 10px;
 }
 
-.shop>img {
+.shop > img {
   display: block;
 }
 
@@ -167,7 +167,7 @@ hr {
   border-radius: 5px;
 }
 
-.container_shop>h4 {
+.container_shop > h4 {
   position: absolute;
   top: 0px;
   left: 1em;
@@ -177,7 +177,7 @@ hr {
   transform: translateY(-50%);
 }
 
-.container_shop>.arrow_right {
+.container_shop > .arrow_right {
   right: 1.5em;
 }
 
@@ -190,10 +190,10 @@ h2 {
 
 .explore {
   width: 100%;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
-.explore>img {
+.explore > img {
   height: auto;
   max-width: 90%;
   min-width: 0;
@@ -202,14 +202,14 @@ h2 {
   margin-bottom: 1em;
 }
 
-.explore>button {
+.explore > button {
   position: relative;
   padding: 10px 25px 10px 10px;
   border: 1px solid #e60012;
   color: white;
   background-color: #e60012;
   border-radius: 4px;
-  margin-left: .5em;
+  margin-left: 0.5em;
   font-size: 18px;
 }
 
@@ -220,7 +220,7 @@ h3 {
   color: #484848;
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 h4 {
@@ -244,8 +244,8 @@ h5 {
   margin-left: 1em;
 }
 
-.trending>li {
-  flex-basis: .25em;
+.trending > li {
+  flex-basis: 0.25em;
   flex-shrink: 0;
   align-items: flex-start;
   scroll-snap-align: center;
@@ -258,7 +258,7 @@ h5 {
   font-weight: bold;
 }
 
-.trending>li>img {
+.trending > li > img {
   margin-bottom: 1em;
   width: 205px;
   height: 115px;
@@ -267,10 +267,10 @@ h5 {
 
 .news {
   width: 98%;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
-.news>img {
+.news > img {
   height: auto;
   max-width: 90%;
   min-width: 0;
@@ -279,7 +279,7 @@ h5 {
   margin-bottom: 1em;
 }
 
-.news>p {
+.news > p {
   display: flex;
   justify-content: flex-start;
   font-size: 16px;
@@ -289,13 +289,13 @@ h5 {
   margin-bottom: 1em;
 }
 
-.news>time {
+.news > .time {
   color: #484848;
   font-weight: lighter;
   font-size: 16px;
 }
 
-.newsBlok>li {
+.newsBlok > li {
   display: grid;
   margin-bottom: 2em;
   grid-gap: 10px;
@@ -304,20 +304,20 @@ h5 {
     "img h4";
 }
 
-.newsBlok>li>img {
+.newsBlok > li > img {
   grid-area: img;
   width: 10em;
   height: 5em;
   border-radius: 2%;
   border: 0.5px solid #484848;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
-.newsBlok>li>p {
+.newsBlok > li > p {
   grid-area: p;
 }
 
-.newsBlok>li>h4 {
+.newsBlok > li > h4 {
   grid-area: h4;
 }
 
@@ -328,7 +328,7 @@ h5 {
   color: white;
   background-color: #e60012;
   border-radius: 4px;
-  margin-left: .5em;
+  margin-left: 0.5em;
   font-size: 18px;
 }
 
@@ -339,9 +339,9 @@ h5 {
   margin-left: 1em;
 }
 
-.newGames>li {
+.newGames > li {
   position: relative;
-  flex-basis: .25em;
+  flex-basis: 0.25em;
   flex-shrink: 0;
   align-items: flex-start;
   scroll-snap-align: center;
@@ -354,7 +354,7 @@ h5 {
   font-weight: bold;
 }
 
-.newGames>li>img {
+.newGames > li > img {
   margin-bottom: 1em;
   width: 205px;
   height: 115px;
@@ -386,6 +386,10 @@ small {
   color: white;
 }
 
+.none {
+  display: none;
+}
+
 .see-all {
   margin-left: 10px;
 }
@@ -405,7 +409,22 @@ small {
   display: block;
   margin: 0 auto;
   width: 100%;
-  padding-bottom: 1em;
+}
+
+.image-container {
+  margin-bottom: 1em;
+  cursor: pointer;
+  transition: color 1s ease;
+  transition: background 1s ease;
+  border-radius: 5px;
+}
+
+.image-container:hover {
+  background: #3d91b8;
+}
+
+.image-container:active {
+  background: red;
 }
 
 .txt_characters {
@@ -421,11 +440,319 @@ small {
 .extra {
   color: #065898;
   margin-left: 1em;
-
 }
 
+#mario,
+#kirby {
+  display: none;
+}
+
+#mario.show,
+#kirby.show {
+  display: block;
+}
+
+/* Hier begint de detail pagina */
+.spanDetail {
+  font-size: 14px;
+  font-weight: 300;
+  border-bottom: 2px solid rgb(230, 0, 18);
+  margin-left: 1em;
+}
+
+.h1Detail {
+  font-size: 24px;
+  font-weight: 550;
+  margin-left: 15px;
+  margin-top: 1em;
+}
+
+.pDetail {
+  font-size: 16px;
+  margin: 1em 0 0 1em;
+}
+
+.h2Detail {
+  font-size: 22px;
+  font-weight: 500;
+  color: #484848;
+  margin: 1em 0 0 15px;
+}
+
+.btnDetail {
+  position: relative;
+  padding: 10px 25px 10px 10px;
+  border: 1px solid #e60012;
+  color: white;
+  background-color: #e60012;
+  border-radius: 4px;
+  margin-left: 0.5em;
+  font-size: 18px;
+  width: 95%;
+  margin-top: 1em;
+}
+
+.points {
+  display: flex;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.goldencoin {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.5em;
+}
+
+.redBtn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e60012;
+  margin-left: 1em;
+}
+
+.redArrow {
+  fill: #e60012;
+  width: 16px;
+  height: 16px;
+  margin-left: 0.5em;
+}
+
+.danceImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 90%;
+}
+
+.containerImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.1em;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.txtDetail {
+  display: block;
+  margin-left: 1em;
+  font-weight: lighter;
+  word-spacing: 1px;
+  line-height: 22px;
+}
+
+/* Hier begint de game info sectie */
+.content-wrapper-standard {
+  margin: 60px 10px;
+}
+
+.game-info span {
+  border: none;
+}
+
+.game-info .h3 {
+  font-size: 18px;
+  color: rgb(72, 72, 72);
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.game-info-item {
+  display: flex;
+  align-items: baseline;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.game-info-icon {
+  margin-right: 10px;
+}
+
+.game-info-item:nth-child(even) {
+  background: #fff;
+}
+
+.game-info-item:nth-child(odd) {
+  background: #ccc;
+}
+/* Einde game info sectie */
+/* Einde detail pagina */
+
+/* Hier begint de dropdown */
+.dropdown-container {
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+.dropdown-container h4,
+.dropdown-container svg {
+  color: rgb(22, 96, 160);
+  fill: rgb(22, 96, 160);
+  font-size: 22px;
+}
+
+.dropdown-container svg {
+  float: right;
+}
+
+.dropdown-container ul {
+  margin-bottom: 30px;
+}
+
+.dropdown-container h4 {
+  padding: 0 20px 20px;
+  border-bottom: 0.5px solid rgba(72, 72, 72, 0.5);
+}
+
+.dropdown-container h4.first {
+  padding: 20px 20px 20px;
+  border-top: 0.5px solid rgba(72, 72, 72, 0.5);
+}
+
+.dropdown-container p {
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.dropdown-icon {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  width: 20px;
+  height: 27px;
+}
+
+.active .dropdown-icon {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+li.active .dropdown-menu {
+  display: block;
+}
+
+.starthidden {
+  display: none;
+}
+/* Einde dropdown*/
+
+/* Hier begint het toggle menu */
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  z-index: 200;
+
+  width: 100%;
+  height: 4px;
+  width: 20px;
+
+  background-color: #484848;
+
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 55px;
+  right: -100%;
+  z-index: 1;
+
+  width: 300px;
+  height: 100%;
+
+  margin: 0;
+  padding: 80px 0;
+
+  list-style: none;
+
+  background-color: #eceff1;
+
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+
+  color: #333;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+  background-color: #cfd8dc;
+}
+/* Einde toggle menu */
+
 /* Footer  */
-footer>section:first-of-type {
+footer > section:first-of-type {
   display: flex;
   margin: 0px auto;
   justify-content: space-between;
@@ -468,7 +795,7 @@ footer h5 {
 
 .background3 {
   position: relative;
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
   width: 45px;
   height: 45px;
   border-radius: 5px;
@@ -562,301 +889,17 @@ nav:last-of-type p {
 }
 /* Eind sticky menu */
 
-/* Hier begint de detail pagina */
-.spanDetail {
-  font-size: 14px;
-  font-weight: 300;
-  border-bottom: 2px solid rgb(230, 0, 18);
-  margin-left: 1em;
-}
-
-.h1Detail {
-  font-size: 24px;
-  font-weight: 550;
-  margin-left: 15px;
-  margin-top: 1em;
-}
-
-.pDetail {
-  font-size: 16px;
-  margin: 1em 0 0 1em;
-}
-
-.h2Detail {
-  font-size: 22px;
-  font-weight: 500;
-  color: #484848;
-  margin: 1em 0 0 15px;
-}
-
-.btnDetail {
-  position: relative;
-  padding: 10px 25px 10px 10px;
-  border: 1px solid #e60012;
+.scroll-to-top-button {
+  position: none;
+  bottom: 75px;
+  right: 25px;
+  background-color: red;
   color: white;
-  background-color: #e60012;
-  border-radius: 4px;
-  margin-left: .5em;
-  font-size: 18px;
-  width: 95%;
-  margin-top: 1em;
+  border-radius: 5px;
+  z-index: 100;
+  font-size: 30px;
 }
 
-.points {
-  display: flex;
-  margin-left: 1em;
-  margin-top: 1em;
-}
-
-.goldencoin {
-  width: 25px;
-  height: 25px;
-  margin-right: .50em;
-}
-
-.redBtn {
-  font-size: 16px;
-  font-weight: 400;
-  color: #e60012;
-  margin-left: 1em;
-}
-
-.redArrow {
-  fill: #e60012;
-  width: 16px;
-  height: 16px;
-  margin-left: .50em;
-}
-
-.danceImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  width: 90%;
-}
-
-.containerImg {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: .10em;
-  margin-top: 1em;
-  margin-bottom: 5em;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.txtDetail {
-  display: block;
-  margin-left: 1em;
-  font-weight: lighter;
-  word-spacing: 1px;
-  line-height: 22px;
-}
-/* Einde detail pagina */
-
-/* Hier begint de dropdown */
-.dropdown {
-  margin: 0 10px;
-  margin-top: 20px;
-}
-
-.dropdown h4,
-.dropdown svg {
-  color: rgb(22, 96, 160);
-  fill: rgb(22, 96, 160);
-  font-size: 22px;
-}
-
-.dropdown svg {
-  float: right;
-}
-
-.dropdown ul {
-  margin-bottom: 30px;
-}
-
-.dropdown h4 {
-  padding: 0 20px 20px;
-  border-bottom: 0.5px solid rgba(72, 72, 72, 0.5);
-}
-
-.dropdown h4.first {
-  padding: 20px 20px 20px;
-  border-top: 0.5px solid rgba(72, 72, 72, 0.5);
-}
-
-.dropdown p {
-  font-size: 18px;
-  margin-left: 20px;
-  font-weight: 300;
-}
-
-.dropdown-icon {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-
-  width: 20px;
-  height: 27px;
-}
-
-.active .dropdown-icon {
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-.nav li .dropdown-menu.active {
-  display: block;
-}
-
-.starthidden {
-  display: none;
-}
-/* Einde dropdown*/
-
-/* Hier begint het toggle menu */
-#menu__toggle {
-  opacity: 0;
-}
-
-#menu__toggle:checked~.menu__btn>span {
-  transform: rotate(45deg);
-}
-
-#menu__toggle:checked~.menu__btn>span::before {
-  top: 0;
-  transform: rotate(0);
-}
-
-#menu__toggle:checked~.menu__btn>span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-#menu__toggle:checked~.menu__box {
-  visibility: visible;
-  right: 0;
-}
-
-.menu__btn {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 15px;
-  right: 20px;
-
-  width: 26px;
-  height: 26px;
-
-  cursor: pointer;
-  z-index: 1;
-}
-
-.menu__btn>span,
-.menu__btn>span::before,
-.menu__btn>span::after {
-  display: block;
-  position: absolute;
-  z-index: 200;
-
-  width: 100%;
-  height: 4px;
-  width: 20px;
-
-  background-color: #484848;
-
-  transition-duration: .25s;
-}
-
-.menu__btn>span::before {
-  content: '';
-  top: -8px;
-}
-
-.menu__btn>span::after {
-  content: '';
-  top: 8px;
-}
-
-.menu__box {
-  display: block;
+.scroll-to-top-button.showBtn {
   position: fixed;
-  visibility: hidden;
-  top: 55px;
-  right: -100%;
-  z-index: 1;
-
-  width: 300px;
-  height: 100%;
-
-  margin: 0;
-  padding: 80px 0;
-
-  list-style: none;
-
-  background-color: #ECEFF1;
-
-  transition-duration: .25s;
 }
-
-.menu__item {
-  display: block;
-  padding: 12px 24px;
-
-  color: #333;
-
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-
-  text-decoration: none;
-
-  transition-duration: .25s;
-}
-
-.menu__item:hover {
-  background-color: #CFD8DC;
-}
-/* Einde toggle menu */
-
-/* Hier begint de game info sectie */
-.content-wrapper-standard {
-  margin: 60px 10px;
-}
-
-.game-info span {
-  border: none;
-}
-
-.game-info .h3 {
-  font-size: 18px;
-  color: rgb(72, 72, 72);
-  font-weight: 700;
-  margin-right: 20px;
-}
-
-.game-info-item {
-  display: flex;
-  align-items: baseline;
-  margin: 10px 0;
-  padding: 10px;
-}
-
-.game-info-icon {
-  margin-right: 10px;
-}
-
-.game-info-item:nth-child(even) {
-  background: #FFF
-}
-
-.game-info-item:nth-child(odd) {
-  background: #CCC
-}
-/* Einde game info sectie */
