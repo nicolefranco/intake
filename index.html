@@ -22,7 +22,7 @@
 			</path>
 		</svg>
 		<h4>Log in</h4>
-		<nav class="hamburger-menu">
+		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" />
 			<label class="menu__btn" for="menu__toggle">
 				<span></span>
@@ -30,20 +30,19 @@
 
 			<ul class="menu__box">
 				<li>
-					<a class="menu__item" href="./detail.html">2de pagina (game detial page)</a>
-				</li>
+					<a class="menu__item" href="./detail.html">2de pagina (game detial page)</a></li>
 				<li><a class="menu__item" href="#">Games</a></li>
 				<li><a class="menu__item" href="#">Hardware</a></li>
 				<li><a class="menu__item" href="#">News & events</a></li>
 				<li><a class="menu__item" href="#">Play nintendo</a></li>
 			</ul>
-		</nav>
+		</div>
 	</header>
 	<!-- einde game info -->
 
 	<!-- begin main -->
 	<main>
-		<img class="homeIMG" src="images/375x211_pd_mobile_HWAOC_V2.jpg" alt="image of heroes" />
+		<img class="homeIMG" src="images/hyrulewarriors.jpg" alt="image of heroes" />
 		<section class="available">
 			<h1>Available now</h1>
 			<button>
@@ -140,7 +139,7 @@
 		<h3>News</h3>
 		<section class="news">
 			<img src="images/newsimg1.jpg" alt="cyber deals" />
-			<span class="time">11/23/2020</span>
+			<p class="time">11/23/2020</p>
 			<h4>
 				Save up to 50% on select digital games during the Cyber Deals sale!
 			</h4>
@@ -151,7 +150,7 @@
 			</p>
 
 			<img src="images/newimg2.jpg" alt="Cover Super Mario" />
-			<span class="time">11/20/2020</span>
+			<p class="timeNews">11/20/2020</p>
 			<h4>
 				Experience the Untold Story of the Great Calamity in Hyrule Warriors:
 				Age of Calamity Today!
@@ -242,7 +241,7 @@
 		<h3>Characters</h3>
 		<div class="characters_container">
 			<section>
-				<figure class="image-container" onclick="changeCharacters()">
+				<figure class="image-container" id="marioKirby">
 					<img id="mario" class="characters show" src="images/characters/character1.png" alt="Mario"/>
 					<img id="kirby" class="characters" src="images/characters/character4.png" alt="Kirby"/>
 				</figure>

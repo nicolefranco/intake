@@ -677,10 +677,8 @@ li.active .dropdown-menu {
   position: absolute;
   top: 15px;
   right: 20px;
-
   width: 26px;
   height: 26px;
-
   cursor: pointer;
   z-index: 1;
 }
@@ -691,23 +689,20 @@ li.active .dropdown-menu {
   display: block;
   position: absolute;
   z-index: 200;
-
   width: 100%;
   height: 4px;
   width: 20px;
-
   background-color: #484848;
-
   transition-duration: 0.25s;
 }
 
 .menu__btn > span::before {
-  content: "";
+  content: '';
   top: -8px;
 }
 
 .menu__btn > span::after {
-  content: "";
+  content: '';
   top: 8px;
 }
 
@@ -718,32 +713,23 @@ li.active .dropdown-menu {
   top: 55px;
   right: -100%;
   z-index: 1;
-
   width: 300px;
   height: 100%;
-
   margin: 0;
   padding: 80px 0;
-
   list-style: none;
-
   background-color: #eceff1;
-
   transition-duration: 0.25s;
 }
 
 .menu__item {
   display: block;
   padding: 12px 24px;
-
   color: #333;
-
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
-
   text-decoration: none;
-
   transition-duration: 0.25s;
 }
 
