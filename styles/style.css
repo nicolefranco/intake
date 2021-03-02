@@ -9,6 +9,13 @@
   text-decoration: none;
 }
 
+body, nav:last-of-type ul {
+  max-width: 420px !important;
+  margin: 0 auto !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
 .header {
   position: relative;
   height: 55px;
@@ -880,7 +887,6 @@ nav:last-of-type p {
 .scroll-to-top-button {
   position: none;
   bottom: 75px;
-  right: 25px;
   background-color: red;
   color: white;
   border-radius: 5px;
